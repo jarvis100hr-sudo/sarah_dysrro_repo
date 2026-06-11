@@ -2,7 +2,7 @@ name: Build Terminal APK
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, terminal ]
   workflow_dispatch:
 
 jobs:
