@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0f14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SETTINGS"
+            android:textColor="#7c6aff"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvNodeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6b7280"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="24dp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="SARA HOST" android:textColor="#e8eaf0" android:textSize="11sp"
+            android:textAllCaps="true" android:fontFamily="monospace" android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/etSaraHost" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="#e8eaf0"
+            android:background="@android:color/transparent" android:textSize="14sp"
+            android:fontFamily="monospace" android:inputType="textUri"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="SARA PORT" android:textColor="#e8eaf0" android:textSize="11sp"
+            android:textAllCaps="true" android:fontFamily="monospace" android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/etSaraPort" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="#e8eaf0"
+            android:background="@android:color/transparent" android:textSize="14sp"
+            android:fontFamily="monospace" android:inputType="number"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="ANTHROPIC API KEY" android:textColor="#e8eaf0" android:textSize="11sp"
+            android:textAllCaps="true" android:fontFamily="monospace" android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/etApiKey" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="#e8eaf0"
+            android:background="@android:color/transparent" android:textSize="12sp"
+            android:fontFamily="monospace" android:inputType="textPassword"
+            android:layout_marginBottom="24dp"/>
+
+        <Button android:id="@+id/btnSaveSettings" android:layout_width="match_parent"
+            android:layout_height="48dp" android:text="Save Settings"
+            android:textColor="#ffffff" android:backgroundTint="#7c6aff"
+            android:layout_marginBottom="8dp"/>
+
+        <Button android:id="@+id/btnTestConn" android:layout_width="match_parent"
+            android:layout_height="48dp" android:text="Test Connection to Sara"
+            android:textColor="#3ddbd9" android:backgroundTint="#161920"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:id="@+id/tvTestResult" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="12sp"
+            android:fontFamily="monospace" android:textColor="#6b7280"/>
+
+    </LinearLayout>
+</ScrollView>

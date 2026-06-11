@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0d0f14</color>
+    <color name="ic_launcher_foreground">#7c6aff</color>
+    <string name="app_name">Hyve Terminal</string>
+    <style name="Theme.Terminal" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#0d0f14</item>
+        <item name="android:statusBarColor">#161920</item>
+        <item name="android:navigationBarColor">#161920</item>
+        <item name="colorPrimary">#7c6aff</item>
+        <item name="colorAccent">#3ddbd9</item>
+    </style>
+</resources>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/layout_fragment_settings.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/layout_fragment_terminal.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/layout/fragment_terminal.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/menu_bottom_nav.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/menu/bottom_nav.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/layout_fragment_mesh.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/layout/fragment_mesh.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/color_nav_tint.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/color/nav_tint.xml"
+    },
+    {
+        "merged": "com.hyveclaw.terminal.app-merged_res-38:/layout_fragment_chat.xml.flat",
+        "source": "com.hyveclaw.terminal.app-main-40:/layout/fragment_chat.xml"
+    }
+]

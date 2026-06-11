@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0d0f14">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#161920">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TERMINAL"
+            android:textColor="#7c6aff"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="door • 100.126.101.53"
+            android:textColor="#6b7280"
+            android:textSize="11sp"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <!-- Output -->
+    <ScrollView
+        android:id="@+id/scrollOutput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp">
+        <TextView
+            android:id="@+id/tvOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e8eaf0"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="4dp"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+    <!-- Input bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#161920"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="#7c6aff"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp" />
+        <EditText
+            android:id="@+id/etInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="#e8eaf0"
+            android:textColorHint="#6b7280"
+            android:hint="command…"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:maxLines="1" />
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_send"
+            android:background="@android:color/transparent"
+            android:tint="#7c6aff"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
