@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0f14"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DISTRO HYVE"
+            android:textColor="#7c6aff"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATA NODE"
+            android:textColor="#3ddbd9"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ready"
+            android:textColor="#22c55e"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Node info -->
+        <TextView
+            android:id="@+id/tvNodeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6b7280"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Sara Address -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sara Address"
+            android:textColor="#e8eaf0"
+            android:textSize="11sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etSaraAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e8eaf0"
+            android:textColorHint="#6b7280"
+            android:hint="100.107.18.12"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:inputType="textUri"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Local Port -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Port"
+            android:textColor="#e8eaf0"
+            android:textSize="11sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etLocalPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e8eaf0"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:inputType="number"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Save Config"
+            android:textColor="#7c6aff"
+            android:backgroundTint="#1a1d26"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Start Agent"
+            android:textColor="#ffffff"
+            android:backgroundTint="#7c6aff"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Stop Agent"
+            android:textColor="#ffffff"
+            android:backgroundTint="#374151" />
+
+    </LinearLayout>
+</ScrollView>

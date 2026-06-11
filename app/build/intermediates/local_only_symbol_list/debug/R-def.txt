@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+color ic_launcher_foreground
+id btnSave
+id btnStart
+id btnStop
+id etLocalPort
+id etSaraAddress
+id tvNodeInfo
+id tvStatus
+layout activity_main
+mipmap ic_launcher
+string app_name
